@@ -1,0 +1,157 @@
+/*DEVELOPER Carlin Verano, IS117-004, Spring 2025 */
+
+* {
+    margin: 0; 
+    padding: 0; 
+}
+
+body {
+    background-color: rgb(200, 223, 244);
+    width: 100%; 
+    height: 1500px; 
+}
+
+header {
+    height: 20%; 
+}
+
+.aboutme {
+    overflow: hidden; 
+    background-color: rgb(180, 213, 243);
+    padding: 20px 40px 20px 40px;
+    border-width: 1px; 
+    border-color: black; 
+    vertical-align: middle;
+    height: 100%; 
+}
+
+.aboutme h1 {
+    color: rgb(38, 37, 99); 
+    margin-top: 20px;
+}
+
+.aboutme h4 {
+    color: rgb(56, 77, 145); 
+    margin: 10px 40px 20px 50px;
+}
+
+.aboutme img {
+    height: 80%; 
+    float: left; 
+    margin: 20px 40px; 
+}
+
+.aboutme a {
+    font-size: 20px; 
+    color: black; 
+    margin-top: 10px; 
+    background-color:rgb(224, 221, 221); 
+    border-radius: 10%;
+    border-width: 2px; 
+    border-color: rgba(0, 0, 0, 0.368); 
+    border-style: solid; 
+    padding: 5px 6px;
+    text-align: center; 
+    text-decoration: none;
+}
+
+.aboutme a:hover {
+    color: gray; 
+    background-color: white; 
+}
+
+main {
+    height: 85%; 
+    margin: 50px 75px 100px 75px;
+}
+
+main h1 {
+    color: rgb(38, 37, 99); 
+    margin-bottom: 30px;
+    clear: both; 
+}
+
+main .card {
+    float: left; 
+    margin-right: 40px; 
+    margin-bottom: 30px; 
+    width: 40%;  
+}
+
+main .card-img-top {
+    width: calc(width*0.22);
+}
+
+#carousel {
+    width: 50%; 
+    margin-bottom: 50px; 
+    float:left; 
+}
+
+#carouselDescription {
+    margin: 0px 50px;
+    padding: 10px 50px 10px 50px;
+    overflow: hidden; 
+}
+
+#carouselDescription p {
+    font-size: 20px; 
+}
+
+main ul {
+    margin: 0px 30px; 
+}
+
+main ul li {
+    font-size: 20px; 
+}
+
+footer {
+    padding: 2.5%; 
+    height: 15%; 
+    clear: both; 
+    background-color: rgb(56, 77, 145); 
+}
+
+footer p {
+    color: rgb(199, 218, 249);
+    text-align: center; 
+}
+
+@media only screen and (max-width: 1344px) {
+    .aboutme h1 {
+        font-size: 30px;
+    }
+    .aboutme h4 {
+        font-size: 18px; 
+    }
+
+}
+
+@media only screen and (max-width: 1300px) {
+    #carouselDescription p {
+        font-size: 15px; 
+        clear: left; 
+    }
+}
+
+@media only screen and (max-width: 936px) {
+    .aboutme a {
+        display: none; 
+    }
+
+    .card-text {
+        display: none; 
+    }
+
+    #carousel {
+        padding: 0; 
+        margin: 0; 
+        float: none; 
+    }
+
+    #carouselDescription {
+        margin: 30px 20px 30px 0; 
+        padding: 0; 
+    }
+}

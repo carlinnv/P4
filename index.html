@@ -1,12 +1,103 @@
+<!-- DEVELOPER Carlin Verano, IS117-004, Spring 2025 -->
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Carlin's Blog</title>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/main.css">
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e2eff8">
+        <a href="index.html"><img src="images/pen.png" height="50" id="logo"></a> 
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto" id="navbar">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Contact
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="pages/contact.html">Contact Info</a>
+                  <a class="dropdown-item" href="pages/contact.html#contact-form">Contact Form</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="pages/portfolio.html">CS Portfolio</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Art
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="pages/artprojects.html">Current Projects</a>
+                  <a class="dropdown-item" href="pages/inspirations.html">Inspirations</a>
+                  <a class="dropdown-item" href="pages/inspirations.html#FAQ">FAQ</a>
+                </div>
+            </li>
+          </ul>
+        </div>
+      </nav>    
+    
+    <header>
+        <section class="aboutme">
+            <img src="images/headshot.jpg">
+            <h1>Hi, I'm Carlin!</h1>
+            <h4>I am a freshman in computer science at the New Jersey Institute of Technology. My current focuses include computer graphics and virtual reality simulations, particularly for pedagogical use. You can view my portfolio above under "CS Portfolio". Besides a computer science student, I also consider myself an artist. You can view my current projects, inspiration, and additional information under the FAQ section.</h4>
+            <a href="pages/contact.html">Contact me!</a>
+        </section>
+    </header>
 
+    <main>
+        <h1>My Blog Posts</h1>
+
+        <div class="card">
+            <img src="images/blogpost_1.JPG" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Trip to the BBG</h5>
+              <p class="card-text">I went on a trip to the Brooklyn Botanic Garden to see the cherry blossoms! We went in mid-April, when many of the blossoms are hitting peak bloom. The Japanese garden was beautiful this time of year; I highly recommend booking a ticket to see the garden.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/blogpost_2.JPG" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Upstate New York</h5>
+              <p class="card-text">Over spring break, my friends and I booked an AirBNB in upstate New York for a little getaway. The peace and quiet of the area, which was surrounded by mountains and lakes, provided a calming break from our hectic school schedules.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/blogpost_3.JPG" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Meeting at the MET</h5>
+              <p class="card-text">For the second time this school year, I went to the MET for an English assignment. To be more accurate, my friends had an English assignment and I went along for the ride. There were a ton of cool new exhibits that I definitely recommend checking out.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/blogpost_4.JPG" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Catching up on the ice</h5>
+              <p class="card-text">Over winter break, I caught up with some of my high school friends at a skating rink near our house. Since there was literally nobody there, we got to skate past our alloted time slot for about two hours, for only $15!</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy Carlin Verano, 2025. All rights reserved. </p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 
 </html>
